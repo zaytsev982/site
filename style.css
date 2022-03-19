@@ -253,7 +253,7 @@ footer div {
     margin-left: 20px;
 }
 
-/*@media (max-width: 350px) {*/
+@media (max-width: 350px) {
     body {
         color: black;
         background-color: white;
@@ -527,4 +527,4 @@ footer div {
     .academy img {
         margin-left: 20px;
     }
-/*}*/
+}
