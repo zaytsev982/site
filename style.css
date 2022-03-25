@@ -100,14 +100,23 @@ nav a:hover {
     margin-top: 80px;
 }
 
-.how-it-work img{
+.how-it-work img {
     background-color: #5aad34;
     z-index: 0;
+}
+
+.how-it-work h2 {
+    margin-left: 7%
 }
 
 .main-elem {
     display: flex;
 }
+
+.main-elem-2 {
+    display: flex;
+}
+
 
 .elem {
     font-size: 17px;
@@ -137,6 +146,12 @@ nav a:hover {
 
 .elem-2 p {
     font-size: 17px;
+}
+
+.live-example h2 {
+    margin-left: 7%;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 
 .example {
@@ -369,24 +384,29 @@ footer div {
     .how-it-work img{
         background-color: #5aad34;
         z-index: 0;
+        margin-top: 0;
     }
 
     .main-elem {
         display: flex;
         flex-direction: column;
-        margin-top: 120%;
+    }
+    
+    .main-elem-2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 120%;
     }
 
     .elem {
         display: flex;
         flex-direction: row;
         font-size: 15px;
-        width: 86%;
-        height: 200px;
+        width: 95%;
+        height: 130px;
         margin: auto;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 200px;
     }
 
     .elem img {
@@ -426,21 +446,28 @@ footer div {
         padding: 0;
     }
 
+    .live-example h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
     .example {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #ededed;
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .example table {
         border: 1px solid #a1a1a1;
-        margin-right: 5%;
+        width: 80%;
     }
 
     .example td {
         text-align: center;
-        width: 100px;
+        width: auto;
+        font-size: 10px;
     }
 
     .example-elem {
@@ -448,13 +475,12 @@ footer div {
     }
 
     .example-text {
-        width: 40%;
+        width: 80%;
         margin-right: 0;
     }
 
     .example img {
-        margin-top: -100px;
-        margin-left: -350px;
+        margin-top: 100px;
         width: 100%;
     }
 
@@ -503,7 +529,7 @@ footer div {
     }
 
     .map {
-        background: url(img/bg-map-desktop@1x.png) no-repeat center;
+        background: url(img/bg-map-mobile@1x.png) no-repeat center;
         background-size: 100%;
         background-color: #ededed;
         height: 300px;
@@ -513,10 +539,11 @@ footer div {
     .map-text {
         display: flex;
         background-color: white;
-        margin-left: 7%;
-        width: 32%;
+        width: 80%;
         height: 40%;
-        padding: 30px;
+        padding: 5px;
+        margin-left: 0;
+        font-size: 12px;
     }
 
     .map-text div {
@@ -534,8 +561,8 @@ footer div {
     }
 
     .soc img {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .academy {
