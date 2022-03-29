@@ -329,6 +329,7 @@ footer div {
 
     .button {
         position: relative;
+        margin-left: -6%;
         background-color: #5aad34;
         color: white;
         padding: 30px;
@@ -379,6 +380,7 @@ footer div {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin-top: 0;
     }
 
     .how-it-work img{
@@ -429,7 +431,7 @@ footer div {
 
     .elem-2 {
         background-color: #ededed;
-        width: 86%;
+        width: 94%;
         margin: auto;
         margin-left: 0;
         padding: 10px;
@@ -441,15 +443,26 @@ footer div {
     }
 
     .elem-2 h3 {
-        font-size: 16px;
+        font-size: 20px;
         margin: 0;
         padding: 0;
+        margin-top: 10%;
+        margin-left: -4%;
+    }
+
+    .circle .image-1 {
+        height: 90px;
+    }
+    
+    .circle .image-2 {
+        height: 50px;
+        margin-top: 20px;
     }
 
     .live-example h2 {
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: 0;
+        margin-left: 7%;
     }
     
     .example {
@@ -474,13 +487,13 @@ footer div {
         margin-left: 7%;
     }
 
-    .example-text {
+    .example p {
         width: 80%;
         margin-right: 0;
     }
 
     .example img {
-        margin-top: 100px;
+        margin-top: 10px;
         width: 100%;
     }
 
@@ -509,10 +522,13 @@ footer div {
 
     .cost {
         display: flex;
+        flex-direction: row;
     }
-
+    
     .cost h3 {
-        margin-right: 13%;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 2px;
     }
 
     .before-after {
@@ -543,6 +559,7 @@ footer div {
         height: 40%;
         padding: 5px;
         margin-left: 0;
+        margin-top: -20%;
         font-size: 12px;
     }
 
@@ -553,18 +570,38 @@ footer div {
     footer {
         background-color: #ededed;
         display: flex;
-        height: 100px;
+        flex-direction: column;
+        height: 150px;
     }
 
     footer div {
-        margin: auto;
+
     }
 
+    .soc {
+        display: flex;
+        margin-top: 10px;
+    }
+    
     .soc img {
         margin-left: 5px;
         margin-right: 5px;
+        width: 20px;
     }
-
+    
+    .soc .footer-image-1 {
+        width: 40px;
+        margin-top: 6px;
+    }
+    
+    .soc .footer-image-2 {
+        width: 32px;
+    }
+    
+    .soc .footer-image-3 {
+        width: 16px;
+    }
+    
     .academy {
         display: flex;
         flex-direction: row;
